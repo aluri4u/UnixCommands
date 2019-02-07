@@ -22,4 +22,4 @@ grep rpm rpmlist.txt
 Or you could use it like this, to search through the output of another file:
 
 rpm -qa | grep ogg
-The first command lists all RPM's installed on your system, the second finds any containing the string “ogg” and outputs them.
+The first command lists all RPM's installed on your system, the second finds any string “ogg” contains and outputs them.
